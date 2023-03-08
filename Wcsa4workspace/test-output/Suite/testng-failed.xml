@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Testonedge(failed)">
+    <parameter name="browser" value="msedge"/>
+    <classes>
+      <class name="testngpackage2.crossbrowsertesting">
+        <methods>
+          <include name="verfiypage"/>
+          <include name="lounchbrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testngpackage2.crossbrowsertesting -->
+    </classes>
+  </test> <!-- Testonedge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
